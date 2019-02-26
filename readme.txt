@@ -26,7 +26,7 @@ class Engineer (n:String, a:String): Student(a){ // declaring a subclass of stud
 //================================================= main =================================================
 fun main (args: Array<String>){ // main
 
-    var papa = Engineer("Papa", "Great Edngineer") // object with default constructor
+    var papa = Engineer("Papa", "Great Engineer") // object with default constructor
     papa.show() // call the method of the class Engineer
 }
-//Papa is an Engineer
+//Papa is a Great Engineer
